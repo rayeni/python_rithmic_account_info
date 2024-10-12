@@ -1,6 +1,6 @@
 # Rithmic Account PnL and Position Information
 
-This is a standalone application gets the following account information:
+This is a standalone application that gets the following account information:
 
 * The account balance.
 * The account margin balance.
