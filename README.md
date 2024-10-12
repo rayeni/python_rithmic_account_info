@@ -4,7 +4,7 @@ This is a standalone application that gets the following account information:
 
 * The account balance.
 * The account margin balance.
-* The account daily profit loss.
+* The account daily profit/loss.
 * The number of open/closed positions for assets traded for the day.
 * The number of long/short orders filled for assets traded for the day.
 * The open profit/loss for each asset with an open position.
@@ -50,14 +50,14 @@ After downloading the repo, `cd` to `python_rithmic_account_info`.
 
 Run the following command:
 
-
+```
 python account_pnl_pos_snap_standalone.py [USERNAME] [PASSWORD] [FCM] [IB] [ACCOUNT_ID]
-
+```
 
 For example, if your Rithmic credentials are **00000000-DEMO/password123** and you want to get account information for account **999999-DEMO** through your **IB (e.g., Ironbeam) and FCM (e.g., Ironbeam)**, then you would run the following command:
 
 ```
-python account_pnl_pos_snap_standalone.py 00000000-DEMO password123 Ironbeam Ironbeam 999999
+python account_pnl_pos_snap_standalone.py 00000000-DEMO password123 Ironbeam Ironbeam 999999-DEMO
 ``` 
 
 After running the app, you will the account information. The following is an example:
